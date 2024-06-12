@@ -58,9 +58,9 @@ def check_password():
     print()
     print("Hint: "+str(remarks))
 
-
-print("Welcome to Password Checker")
-print()
-check_password()
+if __name__=="__main__":
+    print("Welcome to Password Checker")
+    print()
+    check_password()
 
             
