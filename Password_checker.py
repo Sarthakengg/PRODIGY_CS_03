@@ -4,7 +4,7 @@ import string
 def check_password():
     print()
     password=input("Enter Password: ")    #you can also use password=getpass.getpass("Enter Password: ") to hide your password in terminal
-    print()                               #and for that you need to import getpass
+    print()                               #and for that you need to import getpass 
     strength=0                           
     remarks=""
     lower_count=upper_count=num_count=special_char_count=password_length=0
